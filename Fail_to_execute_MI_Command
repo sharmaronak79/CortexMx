@@ -1,0 +1,16 @@
+STLINKUTILITY
+I had the same problem with the Discovery board
+
+> check cable and try changing the port if it still exists then do the following steps, I solved by this way.
+
+
+
+Download this ST-Link Utility from ST website as shown in figure
+
+Connect your device like discovery board to PC
+
+click on connect to the target, if it shows an error then click on a firmware update.
+
+again click on connect device, it will show the latest version or an older one, once click on update firmware.
+
+after updating once again click on connect the target it will connected and then try to debug from IDE
