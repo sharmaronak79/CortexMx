@@ -1,0 +1,3 @@
+The systick timer is a 24-bit countdown timer with an auto reload. 
+It is generally used to provide a periodic interrupt for an RTOS scheduler. 
+The default clock source for the systick timer is the Cortex-M CPU clock.
