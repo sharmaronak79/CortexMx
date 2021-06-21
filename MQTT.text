@@ -3,5 +3,6 @@ to distribute telemetry information in low-bandwidth environments. ...
 The protocol has applications in industries ranging from automotive to energy to telecommunications.
 
 
-MQTT (MQ Telemetry Transport) is a lightweight open messaging protocol that provides resource-constrained network clients with a simple way to distribute telemetry information in low-bandwidth environments.
+MQTT (MQ Telemetry Transport) is a lightweight open messaging protocol that provides resource-constrained network clients with a simple way
+to distribute telemetry information in low-bandwidth environments.
 The protocol, which employs a publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication.
