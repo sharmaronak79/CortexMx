@@ -5,3 +5,8 @@ An interrupt can be triggered internally from the microcontroller (MCU) or exter
 The interrupt alerts the central processing unit (CPU) to an occurrence such as a time-based event
 (a specified amount of time has elapsed or a specific time is reached, for example), 
 a change of state, or the start or end of a process.
+
+Nested vector interrupt control (NVIC) is a method of prioritizing interrupts,
+improving the MCU’s performance and reducing interrupt latency. NVIC also provides implementation schemes 
+for handling interrupts that occur when other interrupts are being executed or
+when the CPU is in the process of restoring its previous state and resuming its suspended process.
