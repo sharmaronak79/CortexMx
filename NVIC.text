@@ -1,0 +1,7 @@
+In a microcontroller, such as those at the heart of industrial motion controllers,
+interrupts serve as a way to immediately divert the central processing unit from its current task to another, more important task.
+
+An interrupt can be triggered internally from the microcontroller (MCU) or externally, by a peripheral.
+The interrupt alerts the central processing unit (CPU) to an occurrence such as a time-based event
+(a specified amount of time has elapsed or a specific time is reached, for example), 
+a change of state, or the start or end of a process.
