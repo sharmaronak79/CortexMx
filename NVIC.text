@@ -10,3 +10,8 @@ Nested vector interrupt control (NVIC) is a method of prioritizing interrupts,
 improving the MCU’s performance and reducing interrupt latency. NVIC also provides implementation schemes 
 for handling interrupts that occur when other interrupts are being executed or
 when the CPU is in the process of restoring its previous state and resuming its suspended process.
+
+One function of NVIC is to ensure that higher priority interrupts are completed before lower-priority interrupts,
+even if the lower-priority interrupt is triggered first. For example, if a lower-priority interrupt is being registered* or executed
+and a higher-priority interrupt occurs, the CPU will stop the lower-priority interrupt and process the higher-priority one first.
+
