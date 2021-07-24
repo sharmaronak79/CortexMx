@@ -3,4 +3,12 @@ Processor works o 2 modes:
 1. Thread mode
 2. Handler mode
 
+Processor always starts on thread mode
+And in thread mode it is in PAL privileged access level
+When it goes to NPAL non privileged access level ,
+It is nit possible to be back in PAL.
+
+When a function calls to anither function then it goes in 
+Handler mode and in handler mode processor always in PAL
+
 
